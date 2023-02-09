@@ -1,0 +1,63 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to right,rgb(43, 156, 226),rgb(177, 12, 136));
+    border: 2px solid indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.innerBox{
+    min-width: 500px;
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    color:rgb(27, 22, 23) ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 15px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer.error{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+.footer button{
+    outline: none;
+    border: none;
+    background-color: rgb(43, 156, 226);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 15px;
+    width: 100%;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color:rgb(177, 12, 136) ;
+}
+.footer button:disabled{
+    background-color: lightgray;
+}
+.footer p{
+    font-weight: 700;
+    color:black
+}
